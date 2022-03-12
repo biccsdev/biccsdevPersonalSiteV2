@@ -1,5 +1,5 @@
 import '../Home.css';
-import { useState } from "react";
+// import { useState } from "react";
 import  Sidebar from '../Sidebar';
 import Typical from 'react-typical'
 
