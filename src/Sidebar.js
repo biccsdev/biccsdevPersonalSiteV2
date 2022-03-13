@@ -30,7 +30,7 @@ const Sidebar = () => {
       )}
 
       <div
-        className={`text-whitish z-20 top-0 right-0 w-[35vw] bg-purple p-10 pl-2.5 fixed h-full ease-in-out duration-300 rounded ${
+        className={`lg:grid text-whitish z-20 top-0 right-0 w-[35vw] lg:w-[15vw] bg-purple p-10 pl-2.5 fixed h-full ease-in-out duration-300 rounded ${
           showSidebar ? "translate-x-0 " : "translate-x-full"
         }`}
       >
