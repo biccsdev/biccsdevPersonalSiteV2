@@ -4,9 +4,12 @@ import Sidebar from "../Sidebar";
 import Typical from "react-typical";
 import BlogPost from "./BlogPost";
 
-import MetaPhoto from "../assets/metav.png"
+import MetaPhoto from "../assets/metav.png";
+import { useState } from "react";
 
 const BlogsPage = () => {
+  const [show, setShow] = useState(false);
+
   return (
     <div className="flex flex-wrap h-screen bg-greyish font-vt323">
       <Sidebar />
@@ -18,10 +21,11 @@ const BlogsPage = () => {
         <button
           className="xl:w-fit flex flex-col flex-wrap justify-start sm:w-3/5 rounded bg-blackish shadow p-3 gap-2 hover:shadow-lg transition delay-150 duration-300 ease-in-out hover:scale-105 transform"
           href="#"
+          onClick={() => (show ? setShow(false) : setShow(true))}
         >
           {/* <!-- Icon --> */}
           <div className="col-span-12 md:col-span-1 sm:flex sm:w-full sm:justify-center xl:justify-start">
-            <img src={MetaPhoto} alt="Guy with VR googles"/>
+            <img src={MetaPhoto} alt="Guy with VR googles" />
           </div>
 
           {/* <!-- Title --> */}
@@ -35,11 +39,12 @@ const BlogsPage = () => {
           {/* <!-- Description --> */}
           <div className="justify-start">
             <p className="text-sm text-whitish font-light sm:text-sm lg:text-3xl">
-              Click to find out about what the metaverse is, current state of needed
-              technologies and more!.
+              Click to find out about what the metaverse is, current state of
+              needed technologies and more!.
             </p>
           </div>
         </button>
+        {show ? <BlogPost /> : null}
       </div>
       {/* <BlogPost /> */}
     </div>
