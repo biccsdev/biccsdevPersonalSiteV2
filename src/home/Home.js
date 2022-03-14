@@ -1,6 +1,7 @@
 import React from 'react';
 import Particles from "react-tsparticles";
 import Sidebar from '../Sidebar';
+import Footer from '../Footer'
 import {Outlet} from "react-router-dom";
 
 import '../Home.css'
@@ -139,6 +140,7 @@ export default function Home() {
         detectRetina: true,
       }}
     />
+    <Footer />
     <Outlet />
     </div>
   );

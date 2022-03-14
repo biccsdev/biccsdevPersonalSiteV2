@@ -39,7 +39,7 @@ const BlogsPage = () => {
           {/* <!-- Description --> */}
           <div className="justify-start">
             <p className="text-sm text-whitish font-light sm:text-sm lg:text-3xl">
-              Click to find out about what the metaverse is, current state of
+              Click here to find out about what the metaverse is, current state of
               needed technologies and more!.
             </p>
           </div>

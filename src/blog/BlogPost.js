@@ -194,7 +194,7 @@ const BlogPost = () => {
       </div>
 
       <div className="mt-6">
-        <h2 className="m-4 lg:text-3xl">Thanks for taking the time to read this article!.</h2>
+        <h2 className="m-4 lg:text-3xl">Thanks for taking the time to read this text!.</h2>
       </div>
     </div>
   );
