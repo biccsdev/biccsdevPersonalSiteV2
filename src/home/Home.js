@@ -31,18 +31,19 @@ export default function Home() {
       />
     </h1>
     <div className='absolute z-10 grid place-items-center h-screen my-40 w-full items-start content-start '>
-        <div className='sm:h-20 lg:h-72 lg:mt-16'>
-            <img className='w-max rounded-full sm:w-24 lg:w-64 -mt-0.5' src={nft} alt="NFT dog with monocule and hat"></img>
+        <div className='sm:h-20 lg:h-40 lg:mt-16'>
+            <img className='w-max rounded-full sm:w-24 lg:w-40 -mt-0.5' src={nft} alt="NFT dog with monocule and hat"></img>
         </div>
         <div className='sm:w-4/5 lg:w-1/4'>
-            <p className='m-8 sm:text-5xl lg:text-6xl text-whitish font-bold tracking-wider leading-4 text-center'>
-            I'm         
+            <p className='m-8 sm:text-5xl lg:text-5xl text-whitish font-bold tracking-wider leading-4 text-center'>
+            <p className='w-full'>I'm</p>         
             <Typical
                     steps={[' @biccsdev', 2000, ' VictorTorres', 2000]}
                     loop={Infinity}
                     wrapper="a"
                 />
-            a Software Engineer based in Mexico.
+            <p className='w-full'>a</p>
+            Software Engineer based in Mexico.
             </p>
         </div>
         

@@ -13,9 +13,15 @@ const Footer = () => {
              p-4
              w-4/12"
       >
-        <a className="text-whitish" href="../portafolioV1/index.html">
-        <Link to="/Oldsite">Click here to access old version of this site.</Link>
-        </a>
+
+            <a
+              className="text-whitish"
+              href="http://biccsdev.me/"
+              target="_blank"
+            >
+              Click here to access old version of this site.
+            </a>
+      
       </footer>
     </>
   );

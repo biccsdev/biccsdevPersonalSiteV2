@@ -11,7 +11,7 @@ module.exports = {
   
         'lg': '1024px',
         // => @media (min-width: 1024px) { ... }
-      }
+      },
     },
     fontFamily: {
       vt323: ["VT323", "monospace"],
