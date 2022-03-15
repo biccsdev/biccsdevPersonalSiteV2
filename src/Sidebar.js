@@ -34,13 +34,28 @@ const Sidebar = () => {
           showSidebar ? "translate-x-0 " : "translate-x-full"
         }`}
       >
-        <button className="mt-20 text-4xl ml-8 underline"><Link to="/">Home</Link></button>
-      <button className="mt-20 text-4xl ml-8 underline"><Link to="/Blogs">Blogs</Link></button>
-      <button className="mt-20 text-4xl ml-2 underline"><Link to="/Projects">Projects</Link></button>
-      <button className="mt-20 text-4xl ml-8 underline"><Link to="/Web3">Web3</Link></button>
-      <a className="mt-20 text-4xl ml-10 underline" href="mailto:biccsdev@gmail.com" target="_blank">Contact</a>
-      
-      <Outlet />
+        <button className="mt-20 text-4xl ml-8 underline">
+          <Link to="/">Home</Link>
+        </button>
+        <button className="mt-20 text-4xl ml-8 underline">
+          <Link to="/Blogs">Blogs</Link>
+        </button>
+        <button className="mt-20 text-4xl ml-2 underline">
+          <Link to="/Projects">Projects</Link>
+        </button>
+        <button className="mt-20 text-4xl ml-8 underline">
+          <Link to="/Web3">Web3</Link>
+        </button>
+        <button className="mt-20 text-4xl ml-8 underline">
+        <a
+          href="mailto:biccsdev@gmail.com"
+          target="_blank"
+        >
+          Contact
+        </a>
+        </button>
+
+        <Outlet />
       </div>
     </>
   );
