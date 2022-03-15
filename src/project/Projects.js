@@ -65,7 +65,7 @@ const ProjectsPage = () => {
 
           {/* <!-- Card 4 --> */}
           <div class="">
-            <a href="" data-bs-toggle="tooltip" title="2048 Game, made for stepping up my javascript game as implemented js modules and more advanced logic." target="_blank">
+            <a href="http://biccsdev.me/2048game/index.html" data-bs-toggle="tooltip" title="2048 Game, made for stepping up my javascript game as implemented js modules and more advanced logic." target="_blank">
               <img
                 src="https://media0.giphy.com/media/Lmg4Qf3FeOBpI6MUnu/giphy.gif?cid=ecf05e47d97wvmapvq8hy62ymczi63zsdbrvrve7uefj3ldo&rid=giphy.gif&ct=g"
                 class="rounded-xl brightness-75"
