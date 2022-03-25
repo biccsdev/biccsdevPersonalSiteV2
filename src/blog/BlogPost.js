@@ -2,6 +2,7 @@ import "../Home.css";
 // import { useState } from "react";
 import Typical from "react-typical";
 import nft from "../assets/solanaDog.jpg";
+import LikeButton from "../LikeButton";
 
 const BlogPost = () => {
   return (
@@ -22,6 +23,7 @@ const BlogPost = () => {
         ></img>
         Author: @biccsdev
       </p>
+      <LikeButton></LikeButton>
       <div className="mt-6">
         <h2 className="m-4 lg:text-3xl">What is the Metaverse?</h2>
         <p className="text-justify w-11/12 lg:w-3/5 m-auto lg:text-2xl">
