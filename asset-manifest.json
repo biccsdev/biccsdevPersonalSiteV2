@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/biccsdevPersonalSiteV2/static/css/main.c74315cf.css",
-    "main.js": "/biccsdevPersonalSiteV2/static/js/main.1bc4503f.js",
-    "static/js/787.3a7804ad.chunk.js": "/biccsdevPersonalSiteV2/static/js/787.3a7804ad.chunk.js",
-    "static/media/VT323-Regular.ttf": "/biccsdevPersonalSiteV2/static/media/VT323-Regular.2bc43ad8eb2f60b39f27.ttf",
-    "static/media/solanaDog.jpg": "/biccsdevPersonalSiteV2/static/media/solanaDog.f1047aace25f04123521.jpg",
-    "index.html": "/biccsdevPersonalSiteV2/index.html",
-    "main.c74315cf.css.map": "/biccsdevPersonalSiteV2/static/css/main.c74315cf.css.map",
-    "main.1bc4503f.js.map": "/biccsdevPersonalSiteV2/static/js/main.1bc4503f.js.map",
-    "787.3a7804ad.chunk.js.map": "/biccsdevPersonalSiteV2/static/js/787.3a7804ad.chunk.js.map"
+    "main.css": "./static/css/main.ba1669e6.css",
+    "main.js": "./static/js/main.f3e622a1.js",
+    "static/js/787.3a7804ad.chunk.js": "./static/js/787.3a7804ad.chunk.js",
+    "static/media/VT323-Regular.ttf": "./static/media/VT323-Regular.2bc43ad8eb2f60b39f27.ttf",
+    "static/media/solanaDog.jpg": "./static/media/solanaDog.f1047aace25f04123521.jpg",
+    "index.html": "./index.html",
+    "main.ba1669e6.css.map": "./static/css/main.ba1669e6.css.map",
+    "main.f3e622a1.js.map": "./static/js/main.f3e622a1.js.map",
+    "787.3a7804ad.chunk.js.map": "./static/js/787.3a7804ad.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.c74315cf.css",
-    "static/js/main.1bc4503f.js"
+    "static/css/main.ba1669e6.css",
+    "static/js/main.f3e622a1.js"
   ]
 }
